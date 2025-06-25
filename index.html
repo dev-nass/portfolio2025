@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonas Vince Macawile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/util.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/hiddenAboutMe.js" defer></script>
+    <script src="js/scrollReveal.js" defer></script>
+</head>
+
+<body class="parent-gradient text-[#f5f5f5]">
+    <section class="section-container px-2 flex justify-between items-center py-5 md:px-0">
+        <h1 class="font-bold text-2xl lg:text-3xl">Jonas <span class="text-[var(--clr-rose)]">Vince</span></h1>
+        <nav class="hidden md:block">
+            <ul class="flex space-x-5 lg:space-x-9">
+                <li><a href="#hero"
+                        class="transition duration-300 hover:text-[var(--clr-rose)] focus:text-[var(--clr-rose)] hover:font-bold">Hero</a>
+                </li>
+                <li><a href="#aboutme"
+                        class="transition duration-300 hover:text-[var(--clr-rose)] focus:text-[var(--clr-rose)] hover:font-bold">About
+                        Me</a></li>
+                <li><a href="#stack"
+                        class="transition duration-300 hover:text-[var(--clr-rose)] focus:text-[var(--clr-rose)] hover:font-bold">Stack</a>
+                </li>
+                <li><a href="#projects"
+                        class="transition duration-300 hover:text-[var(--clr-rose)] focus:text-[var(--clr-rose)] hover:font-bold">Projects</a>
+                </li>
+            </ul>
+        </nav>
+        <a href="" class="rose-btn">Contact Me</a>
+    </section>
+
+    <section id="hero"
+        class="section-container py-[6rem] flex flex-col items-center space-y-7 lg:space-y-0 lg:flex-row-reverse lg:justify-center">
+        <div class="lg:ml-[75px]">
+            <img src="images/karina_icon.jfif" alt="dev-profile" class="h-[200px] rounded-full lg:h-[300px]">
+        </div>
+        <div class="text-center lg:text-left">
+            <p class="text-lg lg:text-2xl">HI THERE!</p>
+            <h1 class="text-4xl mb-2 lg:text-6xl font-bold">I'm Jonas Vince</h1>
+            <p class="text-lg mb-3 md:text-lg lg:text-2xl">A Self thought <span
+                    class="text-[var(--clr-rose)] font-bold">Full Stack Web Developer</span> <br> & a
+                third year BSIS college student</p>
+            <div class="flex justify-center space-x-2 lg:justify-start">
+                <div class="glass-card p-3 rounded-lg">
+                    <a href="https://github.com/dev-nass" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
+                </div>
+                <div class="glass-card p-3 rounded-lg">
+                    <a href="https://web.facebook.com/jonas.vince.macawile.2025" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                </div>
+                <div class="glass-card p-3 rounded-lg">
+                    <a href="https://discordapp.com/users/735903985877385336" target="_blank"><i class="fa-brands fa-discord fa-lg"></i></a>
+                </div>
+                <div class="glass-card p-3 rounded-lg">
+                    <a href="mailto:jonasvincemaca@gmail.com"><i class="fa-solid fa-envelope fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="aboutme" class="section-container py-[6rem]">
+        <div class="flex flex-col items-center space-y-3">
+            <h1 class="text-center text-4xl font-bold uppercase"><span class="text-[var(--clr-rose)]">#</span> About Me
+            </h1>
+            <article class="glass-card p-5 w-[85%] rounded-lg lg:w-[70%]">
+                <div class="flex flex-col space-y-4 text-justify lg:text-lg">
+                    <p>
+                        Hello world! I'm Jonas Vince Macawile, currently a 3rd-year college student at Kolehiyo ng
+                        Lungsod ng Dasmariñas (KLD), taking up a Bachelor of Science in Information Systems (BSIS).
+                    </p>
+                    <p>
+                        I started my coding journey during my first year in college. At that time, I was still undecided
+                        about which path to pursue. As I navigated through our second-year curriculum, I realized that I
+                        was genuinely interested in Web Development—both frontend and backend.
+                    </p>
+                    <div id="hidden-about-me-container" class="hidden flex-col space-y-4">
+                        <p>
+                            Since then, I’ve been sitting in front of my laptop every day, continuously learning new
+                            things.
+                            Because of those efforts, I gradually noticed improvements in my skills. That progress made
+                            me
+                            passionate if not addicted to coding every day.
+                        </p>
+                        <p>
+                            Now, I am continuously learning and seeking a freelance opportunities for Front End or Back
+                            End Development using my tech stack
+                        </p>
+                    </div>
+                    <button id="hidden-about-me-button" class="rose-btn mx-auto w-50">READ MORE</button>
+                </div>
+
+            </article>
+        </div>
+    </section>
+
+    <section id="stack" class="section-container py-[6rem]">
+        <article class="text-center mb-15">
+            <h1 class="text-4xl font-bold uppercase mb-3"><span class="text-[var(--clr-rose)]">#</span> Stack
+            </h1>
+            <p>Programming Languaes, Tools, and Softwares I'm Familiar With</p>
+        </article>
+        <div class="w-full overflow-hidden">
+            <div class="flex w-max scrolling-wrapper justify-center items-center space-x-16">
+                <!-- Repeat your content -->
+                <div class="flex justify-center items-center flex-col text-center">
+                    <img src="images/vscode.svg" alt="vscode" class="h-15 w-15 transition duration-100 drop-shadow-lg hover:drop-shadow-[0_0_1rem_var(--clr-rose)]" />
+                    <p>Vscode</p>
+                </div>
+                <div class="flex justify-center items-center flex-col text-center">
+                    <img src="images/github-v2.svg" alt="github" class="h-15 w-15 transition duration-100 drop-shadow-lg hover:drop-shadow-[0_0_1rem_var(--clr-rose)]">
+                    <p>Github</p>
+                </div>
+                <div class="flex justify-center items-center flex-col text-center">
+                    <img src="images/html.svg" alt="html" class="h-15 w-15 transition duration-100 drop-shadow-lg hover:drop-shadow-[0_0_1rem_var(--clr-rose)]" />
+                    <p>HTML</p>
+                </div>
+                <div class="flex justify-center items-center flex-col text-center">
+                    <img src="images/css-alt.svg" alt="css" class="h-15 w-15 transition duration-100 drop-shadow-lg hover:drop-shadow-[0_0_1rem_var(--clr-rose)]" />
+                    <p>CSS</p>
+                </div>
+                <div class="flex justify-center items-center flex-col text-center">
+                    <img src="images/bootstrap.svg" alt="bootsrap" class="h-15 w-15 transition duration-100 drop-shadow-lg hover:drop-shadow-[0_0_1rem_var(--clr-rose)]" />
+                    <p>Bootstrap</p>
+                </div>
+                <div class="flex justify-center items-center flex-col text-center">
+                    <img src="images/tailwind-css.svg" alt="tailwind-css" class="h-15 w-15 transition duration-100 drop-shadow-lg hover:drop-shadow-[0_0_1rem_var(--clr-rose)]" />
+                    <p>Tailwind</p>
+                </div>
+                <div class="flex justify-center items-center flex-col text-center">
+                    <img src="images/javascript.svg" alt="js" class="h-15 w-15 transition duration-100 drop-shadow-lg hover:drop-shadow-[0_0_1rem_var(--clr-rose)]" />
+                    <p>JavaScript</p>
+                </div>
+                <div class="flex justify-center items-center flex-col text-center">
+                    <img src="images/mysql.svg" alt="mysql" class="h-15 w-15 transition duration-100 drop-shadow-lg hover:drop-shadow-[0_0_1rem_var(--clr-rose)]" />
+                    <p>MySQL</p>
+                </div>
+                <div class="flex justify-center items-center flex-col text-center">
+                    <img src="images/php.svg" alt="php" class="h-15 w-15 transition duration-100 drop-shadow-lg hover:drop-shadow-[0_0_1rem_var(--clr-rose)]">
+                    <p>PHP</p>
+                </div>
+                <div class="flex justify-center items-center flex-col text-center">
+                    <img src="images/laravel.svg" alt="laravel" class="h-15 w-15 transition duration-100 drop-shadow-lg hover:drop-shadow-[0_0_1rem_var(--clr-rose)]">
+                    <p>Laravel</p>
+                </div>
+                <!-- Duplicate for seamless loop -->
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="section-container py-[6rem]">
+        <article class="text-center mb-10">
+            <h1 class="text-4xl font-bold uppercase"><span class="text-[var(--clr-rose)]">#</span> Projects
+            </h1>
+            <p>Progressive projects that built who am I today</p>
+        </article>
+        <article class="flex flex-col space-y-8">
+            <!-- VLV -->
+            <div id="vlv" class="glass-card p-7 rounded-lg">
+                <article class="grid grid-cols-1 gap-5 lg:grid-cols-2 ">
+                    <div class="overflow-hidden lg:h-full">
+                        <img src="images/projects/image101.png" alt="vlv"
+                            class="h-full transition-transform duration-300 hover:scale-125">
+                    </div>
+                    <div class="text-justify flex flex-col space-y-5 items-start">
+                        <h1 class="text-3xl font-bold">Viva La Vida</h1>
+                        <div class="flex flex-wrap space-x-5 space-y-3">
+                            <span class="border border-orange-500 text-orange-500 py-2 px-3 rounded-lg">HTML</span>
+                            <span class="border border-blue-500 text-blue-500 py-2 px-3 rounded-lg">CSS</span>
+                            <span class="border border-violet-500 text-violet-500 py-2 px-3 rounded-lg">Bootstrap</span>
+                            <span class="border border-yellow-500 text-yellow-500 py-2 px-3 rounded-lg">JS</span>
+                            <span class="border border-gray-500 text-gray-500 py-2 px-3 rounded-lg">MySQL</span>
+                            <span class="border border-indigo-500 text-indigo-500 py-2 px-3 rounded-lg">PHP</span>
+                        </div>
+                        <p>Viva La Vida is a fictional shop name created by our group. The system I developed
+                            includes a
+                            POS (Point of Sale) dashboard for the admin side and functions as a wiki page for
+                            the
+                            user
+                            side.</p>
+                        <p>This project serves as our introduction to full-stack web development and our first
+                            experience with PHP procedural programming.</p>
+                        <a href="https://github.com/dev-nass/VivaLaVida.git" target="_blank" class="rose-btn mb-3">Visit Repo</a>
+                    </div>
+                </article>
+            </div>
+            <!-- Norte Cafe -->
+            <div id="norte_cafe" class="glass-card p-7 rounded-lg">
+                <article class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+                    <div class="overflow-hidden lg:order-2">
+                        <img src="images/projects/norte-cafe.png" alt="norte-cafe"
+                            class="h-full transition-transform duration-300 hover:scale-125">
+                    </div>
+                    <div class="text-justify flex flex-col space-y-5 items-start lg:order-1">
+                        <h1 class="text-3xl font-bold">Norte Cafe</h1>
+                        <div class="flex flex-wrap space-x-5 space-y-3">
+                            <span class="border border-orange-500 text-orange-500 py-2 px-3 rounded-lg">HTML</span>
+                            <span class="border border-blue-500 text-blue-500 py-2 px-3 rounded-lg">CSS</span>
+                            <span class="border border-violet-500 text-violet-500 py-2 px-3 rounded-lg">Bootstrap</span>
+                            <span class="border border-yellow-500 text-yellow-500 py-2 px-3 rounded-lg">JS</span>
+                            <span class="border border-gray-500 text-gray-500 py-2 px-3 rounded-lg">MySQL</span>
+                            <span class="border border-indigo-500 text-indigo-500 py-2 px-3 rounded-lg">PHP</span>
+                        </div>
+                        <p>The Norte Cafe is an Online Ordering System developed to aid the actual shop of "Norte
+                            Cafe by
+                            Coffee Bunny" located at
+                            Dasmariñas City, Cavite Area G. Our group
+                            personally interviewed the owner to further understand their current limitation in hopes
+                            that the system we will develop will help with their current process.</p>
+                        <p>Due to learings I gained from our previous Web System, this system was a huge
+                            success despite it size. I manage to implement PHP OOP and MVC archicture at the same
+                            time.</p>
+                        <a href="https://github.com/dev-nass/NorteCafe.git" target="_blank" class="rose-btn mb-3">Visit Repo</a>
+                    </div>
+
+                </article>
+            </div>
+            <!-- PHP Template -->
+            <div id="php_template" class="glass-card p-7 rounded-lg">
+                <article class="grid grid-col-1 gap-5 lg:grid-cols-2">
+                    <div class="overflow-hidden">
+                        <img src="images/projects/php-template.png" alt="norte-cafe"
+                            class="h-full transition-transform duration-300 hover:scale-125">
+                    </div>
+                    <div class="text-justify flex flex-col space-y-5 items-start">
+                        <h1 class="text-3xl font-bold">PHP Template</h1>
+                        <div class="flex flex-wrap space-x-5 space-y-3">
+                            <span class="border border-orange-500 text-orange-500 py-2 px-3 rounded-lg">HTML</span>
+                            <span class="border border-blue-500 text-blue-500 py-2 px-3 rounded-lg">CSS</span>
+                            <span class="border border-violet-500 text-violet-500 py-2 px-3 rounded-lg">Bootstrap</span>
+                            <span class="border border-yellow-500 text-yellow-500 py-2 px-3 rounded-lg">JS</span>
+                            <span class="border border-gray-500 text-gray-500 py-2 px-3 rounded-lg">MySQL</span>
+                            <span class="border border-indigo-500 text-indigo-500 py-2 px-3 rounded-lg">PHP</span>
+                        </div>
+                        <p>The PHP Template is a mini PHP library I made filled with classes, methods, functions
+                            that I used primarily during the development of Norte Cafe. All of the backend
+                            optimization that I wasn't able to implement to Norte Cafe is here
+                        </p>
+                        <p>The template primarily serves as my review to Laravel, similar to Norte Cafe, this is so
+                            when I migrate back to Laravel again, I won't feel that much overwhelmed.</p>
+                        <a href="https://github.com/dev-nass/PHP-Template.git" target="_blank" class="rose-btn mb-3">Visit Repo</a>
+                    </div>
+                </article>
+            </div>
+            <!-- Tweak Me -->
+            <div id="tweak_me" class="glass-card p-7 rounded-lg">
+                <article class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+                    <div class="overflow-hidden lg:order-2">
+                        <img src="images/projects/tweak-me.png" alt="norte-cafe"
+                            class="h-full transition-transform duration-300 hover:scale-125">
+                    </div>
+                    <div class="text-justify flex flex-col space-y-5 items-start lg:order-1">
+                        <h1 class="text-3xl font-bold">Tweak Me</h1>
+                        <div class="flex flex-wrap space-x-5 space-y-3">
+                            <span class="border border-orange-500 text-orange-500 py-2 px-3 rounded-lg">Blade</span>
+                            <span class="border border-blue-500 text-blue-500 py-2 px-3 rounded-lg">CSS</span>
+                            <span class="border border-blue-300 text-blue-300 py-2 px-3 rounded-lg">Tailwind</span>
+                            <span class="border border-yellow-500 text-yellow-500 py-2 px-3 rounded-lg">JS</span>
+                            <span class="border border-gray-500 text-gray-500 py-2 px-3 rounded-lg">MySQL</span>
+                            <span class="border border-red-500 text-red-500 py-2 px-3 rounded-lg">Laravel</span>
+                        </div>
+                        <p>Tweak Me is a twitter clone that's primary focused is to serve as my introduction to
+                            Laravel. It contains rich user experience that allows the user to post, share,
+                            comment,
+                            react
+                            view their online status and more.
+                        </p>
+                        <p>The project gave me a deep insight as to how vast backend development actually is. I
+                            learned about
+                            Polymorphic Relationships, more about AJAX request, and more.</p>
+                        <a href="https://github.com/dev-nass/TweakMe.git" target="_blank" class="rose-btn mb-3">Visit Repo</a>
+                    </div>
+                </article>
+            </div>
+        </article>
+    </section>
+
+    <footer class="section-container text-center py-[2rem]">
+        <p>© 2025 Jonas Vince Macawile. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
